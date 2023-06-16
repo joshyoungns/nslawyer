@@ -26,8 +26,8 @@ $mail->From = "jy.ns.test@gmail.com";
 $mail->FromName = $name;
 $mail->addAddress("joshyoung.ns@gmail.com", "Joshua Young");
 $mail->isHTML(true);
-$mail->Subject = "Inuiry from", $name;
-$mail->Body = $message, "reply to: ", $email;
+$mail->Subject = "Inuiry from";
+$mail->Body = "reply to: ";
 $mail->AltBody = "This is the plain text version of the email content";
 if(!$mail->send())
 {
