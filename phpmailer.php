@@ -1,5 +1,5 @@
 <?php
-require_once "./vendor/autoload.php";
+require_once ('./vendor/autoload.php');
 
 $name = $_POST['fullName']; // required
 $email = $_POST['email']; // required
